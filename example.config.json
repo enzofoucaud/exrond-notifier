@@ -1,0 +1,13 @@
+{
+    "log_level": "DEBUG",
+    "discord_id": "",
+    "discord_token": "",
+    "tokens": [
+        {
+            "token": "WAGMI",
+            "price": 0.000001,
+            "is_below": false,
+            "is_above": true
+        }
+    ]
+}
