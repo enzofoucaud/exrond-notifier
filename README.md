@@ -17,27 +17,27 @@ Edit `config.json` with your own values :
 
 ### Tokens name list
 
-* Elrond eGold
-* WrappedEGLD
-* Exrond
-* LAUNCH
-* Water
-* DEAD
-* ThankYou
-* JOY
-* Munchkin
-* HODL
-* VITAL
-* Mermaid
-* EleRon
-* ZorgCoin
-* LOOT
-* ElrondBuds
-* ELRONDCULTCOIN
-* versX
-* Caviar
-* Nexus
-* MYSTERYMINT
-* WAGMI
-* ECITY
-* INFRA
+- Elrond eGold
+- WrappedEGLD
+- Exrond
+- LAUNCH
+- Water
+- DEAD
+- ThankYou
+- JOY
+- Munchkin
+- HODL
+- VITAL
+- Mermaid
+- EleRon
+- ZorgCoin
+- LOOT
+- ElrondBuds
+- ELRONDCULTCOIN
+- versX
+- Caviar
+- Nexus
+- MYSTERYMINT
+- WAGMI
+- ECITY
+- INFRA
