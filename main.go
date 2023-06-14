@@ -53,8 +53,8 @@ func main() {
 			// Check if pair is WAGMI
 			for _, token := range c.Tokens {
 				if token.Token == pair.SecondToken.Name {
+					pairFloat, _ := strconv.ParseFloat(pair.SecondTokenPrice, 64)
 					if token.IsBelow {
-						pairFloat, _ := strconv.ParseFloat(pair.SecondTokenPrice, 64)
 						if pairFloat <= token.Price {
 							message := "WAGMI alert: token is below " + pair.SecondTokenPrice
 							err := Discord(message, c.DiscordID, c.DiscordToken)
@@ -65,7 +65,6 @@ func main() {
 						}
 					}
 					if token.IsAbove {
-						pairFloat, _ := strconv.ParseFloat(pair.SecondTokenPrice, 64)
 						if pairFloat >= token.Price {
 							message := "WAGMI alert: token is above " + pair.SecondTokenPrice
 							err := Discord(message, c.DiscordID, c.DiscordToken)
