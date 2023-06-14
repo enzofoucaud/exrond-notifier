@@ -9,6 +9,7 @@ type Config struct {
 	LogLevel     string `json:"log_level"`
 	DiscordID    string `json:"discord_id"`
 	DiscordToken string `json:"discord_token"`
+	SleepTime    int    `json:"sleep_time"`
 	Tokens       []struct {
 		Token   string  `json:"token"`
 		Price   float64 `json:"price"`

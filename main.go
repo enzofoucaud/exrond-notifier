@@ -79,7 +79,7 @@ func main() {
 		}
 		log.Debug().Msg("--------------")
 
-		time.Sleep(1 * time.Minute)
+		time.Sleep(time.Duration(c.SleepTime) * time.Second)
 	}
 }
 

@@ -2,6 +2,7 @@
     "log_level": "DEBUG",
     "discord_id": "",
     "discord_token": "",
+    "sleep_time": 60,
     "tokens": [
         {
             "token": "WAGMI",
