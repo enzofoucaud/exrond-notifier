@@ -35,7 +35,7 @@ Edit `config.json` with your own values :
 - ElrondBuds
 - ELRONDCULTCOIN
 - versX
-- Caviar
+- Caviar [SCAM alert](https://twitter.com/PepeVersX/status/1654854429592506369?s=20)
 - Nexus
 - MYSTERYMINT
 - WAGMI
