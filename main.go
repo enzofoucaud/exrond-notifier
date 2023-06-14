@@ -56,7 +56,7 @@ func main() {
 					pairFloat, _ := strconv.ParseFloat(pair.SecondTokenPrice, 64)
 					if token.IsBelow {
 						if pairFloat <= token.Price {
-							message := "WAGMI alert: token is below " + pair.SecondTokenPrice
+							message := pair.SecondToken.Name + " alert: token is below " + pair.SecondTokenPrice
 							err := Discord(message, c.DiscordID, c.DiscordToken)
 							if err != nil {
 								log.Err(err).Msg("error sending discord notification")
@@ -66,7 +66,7 @@ func main() {
 					}
 					if token.IsAbove {
 						if pairFloat >= token.Price {
-							message := "WAGMI alert: token is above " + pair.SecondTokenPrice
+							message := pair.SecondToken.Name + " alert: token is above " + pair.SecondTokenPrice
 							err := Discord(message, c.DiscordID, c.DiscordToken)
 							if err != nil {
 								log.Err(err).Msg("error sending discord notification")
